@@ -95,7 +95,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-indigo-500/20 blur-3xl rounded-full" />
 
               <img
-                src="https://th.bing.com/th/id/OIP.eNRVngsO951_jhkDY3vvOQHaEJ?w=272&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+                src="/profile.jpg"
                 alt="Profile"
                 className="relative w-64 sm:w-80 md:w-90 lg:w-[400px] aspect-square rounded-4xl object-cover shadow-2xl"
               />
