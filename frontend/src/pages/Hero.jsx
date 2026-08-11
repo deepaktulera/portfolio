@@ -46,14 +46,14 @@ export default function Hero() {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mt-10 justify-center lg:justify-start">
               <a
-                href="#projects"
+                href="/projects"
                 className="flex items-center justify-center gap-2 px-7 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 transition"
               >
                 View Projects
                 <ArrowRight size={18} />
               </a>
 
-              <button className="flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-zinc-700 hover:border-indigo-500 hover:bg-zinc-900 transition">
+              <button className="flex items-center justify-center gap-2 px-7 py-3 rounded-xl border border-zinc-700 hover:border-indigo-500 hover:bg-zinc-900 hover:text-white transition">
                 Resume
                 <Download size={18} />
               </button>
