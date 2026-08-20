@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import AIChat from "../components/AIChat";
 
 export default function MainLayout() {
   return (
@@ -9,8 +10,8 @@ export default function MainLayout() {
       <main>
         <Outlet />
       </main>
-
       <Footer />
+      <AIChat />
     </div>
   );
 }

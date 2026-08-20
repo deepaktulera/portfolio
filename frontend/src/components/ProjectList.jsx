@@ -1,4 +1,4 @@
-const ProjectList = ({ projects, onDelete }) => {
+const ProjectList = ({ projects, onDelete , onEdit}) => {
   if (!projects.length)
     return (
       <div className="md:col-span-2">
@@ -70,6 +70,22 @@ const ProjectList = ({ projects, onDelete }) => {
               "
             >
               Delete
+            </button>
+            <button
+              onClick={() => onEdit(project._id)}
+              className="
+                bg-blue-600
+                hover:bg-blue-500
+                transition
+                rounded-lg
+                px-5
+                py-2
+                w-full
+                md:w-auto
+                md:self-start
+              "
+            >
+              Edit
             </button>
           </div>
         ))}

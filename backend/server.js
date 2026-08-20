@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import connectDB from "./config/database.js";
 import projectRoutes from "./routes/project.route.js";
 import authRoutes from "./routes/auth.routes.js";
+import aiRoutes from "./routes/ai.routes.js";
 import cors from 'cors'
 
 dotenv.config();
@@ -16,6 +17,7 @@ connectDB();
 
 app.use("/projects", projectRoutes);
 app.use("/auth", authRoutes);
+app.use("/ai", aiRoutes);
 
 const PORT = process.env.PORT || 5050;
 
